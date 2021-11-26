@@ -1,0 +1,73 @@
+.stylebar
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.grid
+{
+    display: grid;
+    grid-template-rows: auto auto;
+   
+   
+}
+
+li{
+    color: white;
+    font-size: large;
+   
+}
+
+.stylebar:hover
+{
+    background-color: #BADFE7;
+    padding: 15px;
+    border-radius: 25px;
+}
+.stylebar:focus{
+    background-color: #BADFE7;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.makebig
+{
+    padding: 20px;
+   
+    background-color:    #388087;
+}
+
+#ttt
+{
+    font-weight: 900;
+    font-style: initial;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+
+@media screen and (max-width:500px) {
+
+    .grid
+{
+    display: block;
+   
+    
+   
+   
+}
+
+.stylebar{
+    display: block;
+}
+
+    
+}

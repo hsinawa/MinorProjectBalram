@@ -1,0 +1,98 @@
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+  }
+  .imagedescription
+  {
+    
+    width: 700px;
+    height: 500px;
+  }
+
+
+
+
+.gridview
+{
+  display: grid;
+  grid-template-columns: auto auto;
+} 
+
+.name
+{
+  font-size: 50px;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+@media screen  and (max-width:800px) {
+
+  .imagedescription
+  {
+    
+    width: 600px;
+    height: 500px;
+  }
+
+
+
+
+.gridview
+{
+  display: block;
+  grid-template-columns: auto ;
+} 
+
+  
+}
+
+
+
+
+
+@media screen  and (max-width:600px) {
+
+  .imagedescription
+  {
+    
+    width: 500px;
+    height: 400px;
+  }
+
+
+
+
+.gridview
+{
+  display: block;
+  grid-template-columns: auto ;
+} 
+
+  
+}
+
+
+
+@media screen  and (max-width:400px) {
+
+  .imagedescription
+  {
+    
+    width: 300px;
+    height: 300px;
+  }
+
+
+
+
+.gridview
+{
+  display: block;
+  grid-template-columns: auto ;
+} 
+
+  
+}
